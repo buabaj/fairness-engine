@@ -1,6 +1,6 @@
 # Fairness Engine
 
-Fairness Engine is a secure multi-party computation server that ensures input data privacy while maintaining correctness and fairness. It uses Shamir's Secret Sharing protocol for secure computation.
+Fairness Engine is a [secure multi-party computation](https://citeseerx.ist.psu.edu/document?repid=rep1&type=pdf&doi=dce0d462c182121f37279e3809d484624f3d3eba) server that ensures input data privacy while maintaining correctness and fairness. It uses [Shamir's Secret Sharing protocol](https://medium.com/@keylesstech/a-beginners-guide-to-shamir-s-secret-sharing-e864efbf3648) for secure computation.
 
 ## Architecture
 
@@ -18,6 +18,6 @@ The server handles the following operations:
 
 ## Todo
 
-[ ] e2e test and benchmark test against other protocols
-[ ] add support for multi-party async computation 
-[ ] add support for resource alloc election
+- [ ] e2e test and benchmark test against other protocols
+- [ ] add support for multi-party async computation 
+- [ ] add support for resource alloc election
